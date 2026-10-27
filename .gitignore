@@ -1,0 +1,43 @@
+# ---- Vivado / Vitis: generated projects and build products (recreate with fw/create_project.tcl, fw/build.tcl)
+**/fw/prj/
+**/fw/prj_*/
+**/sw/workspace/
+.Xil/
+xsim.dir/
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.backup.*
+webtalk*
+hs_err_pid*
+*.bit
+*.hwh
+*.xsa
+*.xpr
+*.wcfg
+
+# ---- Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
+
+# ---- kria_face_detect: datasets, training runs, FINN builds
+kria_face_detect/ml/data/
+kria_face_detect/ml/runs/*/*
+!kria_face_detect/ml/runs/v1/best.pt
+!kria_face_detect/ml/runs/v1/args.json
+!kria_face_detect/ml/runs/v1/log.csv
+!kria_face_detect/ml/runs/v1/eval_val.txt
+**/output_*/
+*_raw.onnx
+kria_face_detect/ml/size_net/*.onnx
+kria_face_detect/ml/finn_v1/*.npy
+kria_face_detect/pynq/*.npy
+kria_face_detect/pynq/hw_meta.json
+
+# ---- the Vitis/Vivado gitignore of xsct-kit excludes _config.tcl; the per-step configs are
+# ---- tracked on purpose (added with git add -f)
+
+# ---- vendor documents (not ours to redistribute; see docs/setup_host.md for links)
+docs/*.pdf

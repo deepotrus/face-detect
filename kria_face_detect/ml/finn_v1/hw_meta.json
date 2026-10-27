@@ -1,0 +1,12 @@
+{
+ "run": "v1",
+ "checkpoint": "runs/v1/best.pt",
+ "out_scale": 0.031543388962745667,
+ "out_dtype": "INT8",
+ "out_layout": "NHWC (15, 20, 2): [score logit, size code]",
+ "size_log_min": 3.5,
+ "size_log_span": 4.0,
+ "cell_px": 8,
+ "in_w": 160,
+ "in_h": 120
+}

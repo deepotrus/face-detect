@@ -1,0 +1,6 @@
+# per-project configuration
+_config.tcl
+# xsct/Vivado scratch
+*.log
+*.jou
+.Xil/
