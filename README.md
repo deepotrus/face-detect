@@ -1,5 +1,12 @@
 # kriaboard: from "hello world" to face detection in the FPGA of a Kria KV260
 
+<p align="center">
+  <img src=".github/assets/face_detect_demo.gif" width="480" alt="Live webcam on the KV260 with a box around the detected face">
+  <br>
+  <em>Step 5 live on the board: every frame goes through FaceNet in the PL (16.4 ms per frame, 29.9 fps).<br>
+  10 s of a 30 s recording made with <code>RECORD = True</code> in <code>kria_face_detect/pynq/face_detect.ipynb</code> (real time, every 3rd frame kept for size).</em>
+</p>
+
 A step-by-step path on the AMD Kria KV260 Vision AI Starter Kit, from a first bare-metal program to a neural network that detects faces in a live webcam stream, **computed in the programmable logic (PL)** at camera speed.
 
 Each folder is one step. Every step works on its own, is documented in its own README (objective, what is new, how it prepares the next step, how to build and run it, measured results), and builds on the previous one.
